@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript in Web Pages</title>
+    <script defer src="scripts/two.js" />
+    <!-- Unexpected end of  file is not happen -->
+    <script type="text/javascript">
+    console.log('Inside the <head> tag');
+    </script>
+</head>
+
+<body>
+    <script type="text/javascript" src="scripts/one.js">
+    console.log('Inside the external file js tag'); // Inside any contents not compiled
+    </script>
+    <script type="text/javascript" src="scripts/three.js"></script>
+    <script type="text/javascript">
+    console.log('Inside the <body> tag');
+    </script>
+    <noscript>
+        <h1>This application requires JavaScript enable JavaScript </h1>
+    </noscript>
+</body>
+
+</html>
