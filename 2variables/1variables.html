@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Variables</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    var orderId = 9116;
+    console.log(orderId);
+
+    var orderId = "ORD-9116";
+    console.log(orderId);
+
+    var orderId = "ORD-9001";
+    orderId = 9001; // In JavaScript the variables are dynamically typed.
+    console.log(orderId);
+
+    var studentName;
+    console.log(studentName);
+
+    studentAge = 22; // JavaScript noticed that and created a new GLOBAL VARIABLE
+    console.log(studentAge);
+
+    'use strict'; // This is a feature of ES5 where we can enter strict mode.
+    studentAge = 22;
+    console.log(studentAge);
+    </script>
+</body>
+
+</html>

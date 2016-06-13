@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript Variables</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+    var orderId = 9116;
+    // Number can be an integer or floating point
+    console.log(typeof orderId);
+
+    var orderId = 9116.15;
+    // Javascript considered floating point& decimals to an number
+    console.log(typeof orderId);
+
+    var orderId = "ORD-9116"
+    console.log(typeof orderId);
+
+    var isActive = true;
+    // true/false is a boolean value
+    console.log(typeof isActive);
+
+    var isActive;
+    // Not initialize any values
+    // Type of uninitialized variable always undefined
+    console.log(typeof isActive);
+
+    var orders = {
+        orderNumber: 9116,
+        isActive: true
+    };
+    // Creating an object with two properties
+    // Called complex data type in JavaScript
+    console.warn(typeof orders);
+
+    var cancelledOrders = [9001, 9002, 9003];
+    // This one also called object.
+    // There is no fundamental data type called array.
+    console.log(typeof cancelledOrders);
+
+    var order = null;
+    //This is a strange quirk of JavaScript
+    console.log(typeof order);
+
+    function cancelOrder(orderId) {
+
+    }
+    // Functions operates lot like objects
+    // But they do have their own type called function
+    console.log(typeof cancelOrder);
+    </script>
+</body>
+
+</html>
