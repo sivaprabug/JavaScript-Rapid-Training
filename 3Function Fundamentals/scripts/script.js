@@ -77,4 +77,3 @@ console.log(typeof addingValue);
 addingValue();
 addingValue(50,50);
 addingValue;
-
