@@ -1,0 +1,6 @@
+- </script>
+- Variables and Types
+- Functions
+- Conditionals
+- Loops
+- JS Usage
