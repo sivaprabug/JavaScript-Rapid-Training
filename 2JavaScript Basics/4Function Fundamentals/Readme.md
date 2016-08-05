@@ -54,9 +54,9 @@
 - Assigning a function to a variable
 
 
-        var addingValue = function (a,b) {
-         console.log(a+b);
-         };
+	    var addingValue = function (a,b) {
+	    console.log(a+b);
+	    };
 
 	console.log(addingValue(10,10)); //20
 
