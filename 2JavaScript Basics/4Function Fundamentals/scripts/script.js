@@ -3,23 +3,23 @@
 };
 
 printOrder();
+
+
 */
-
-
 
 /*function printOrder(orderId) {
     console.log('orderId => ' + orderId);
 };
 
-printOrder(9116);*/
-
+printOrder(9116);
+*/
 
 
 /*function printOrder(orderId){
 		 console.log('orderId => '+ orderId);
 };
-printOrder('9116');*/
-
+printOrder('9116');
+*/
 
 
 
@@ -27,8 +27,8 @@ printOrder('9116');*/
 /*printOrder('9116');
 function printOrder(orderId){
 		 console.log('orderId => '+ orderId);
-};*/
-
+};
+*/
 
 
 /*function calculateTotalPrice(quantity, price) {
@@ -71,9 +71,18 @@ console.log(orders);
 var addingValue = function (a,b) {
     console.log(a+b);
 };
-console.log(addingValue(10,10));
-console.log(addingValue);
-console.log(typeof addingValue);
-addingValue();
-addingValue(50,50);
+
+// console.log(addingValue(10,10));
+
+// console.log(addingValue);
+
+// console.log(typeof addingValue);
+
+// addingValue();
+
+//addingValue(50,50);
+
+/*var values = addingValue(50,50);
+console.log(values);*/
+
 addingValue;
