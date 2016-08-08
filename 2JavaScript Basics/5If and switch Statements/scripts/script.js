@@ -4,8 +4,8 @@ var freeShipping = false;
 if (total >= 500.00) {
     freeShipping = true;
 }
-console.log(freeShipping);
-*/
+console.log(freeShipping);*/
+
 
 
 /*var total = 100;
@@ -14,23 +14,25 @@ var savings;
 if (total >= 90) {
     freeShipping = true;
     savings = 20;
-} else { // we not given semicolon in conditional statements.
+}; else { // we not given semicolon in conditional statements.
     freeShipping = false;
     savings = 0;
 }
 console.log(savings);*/
 
 
-/*var orderType = 'military';
+/*var orderType = 'company';
 var shipMethod;
 if (orderType == 'business')
     shipMethod = 'fedex';
 else if (orderType == 'personal')
     shipMethod = 'ups';
+else if (orderType == 'company')
+		shipMethod = 'ABT';
 else
     shipMethod = 'usps'
-console.log(shipMethod);*/
-
+console.log(shipMethod);
+*/
 
 
 /*var orderType = 'personal';
@@ -62,15 +64,15 @@ switch (orderType) {
     default:
         shipMethod = 'usps'
 }
-console.log(shipMethod);
-*/
+console.log(shipMethod);*/
+
 
 
 /*var orderType = 'business';
 var shipMethod;
 
 switch (orderType) {
-    case 'business':
+    case 'business': // Here these three any cases return fedex only.
     case 'government':
     case 'personal':
         shipMethod = 'fedex';
@@ -110,11 +112,12 @@ console.log(shipMethod);*/
 
 
 
-var mark = 90;
+var age = 16;
+var mark = 100;
 var grade;
 
-switch (true) {
-    case (mark == 100):
+switch (true) { //true means the switch case value taken any one instead of given mark means inside block mark only passing
+    case (mark == 100 && age == 18):
         grade = 'A';
         break;
     case (mark >= 90 && mark <= 99):
